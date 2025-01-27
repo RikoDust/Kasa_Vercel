@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 
 _________________________________________________________________________________________________________
 
-# Ce depot est un doublons afin de deployer le site Kasa sur Vercel
+# Ce depot est un doublon afin de deployer le site Kasa sur Vercel
 
 
  - https://vercel.com/rikodusts-projects/sitekasa (repo)
