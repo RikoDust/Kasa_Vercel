@@ -1,0 +1,27 @@
+/*** AccordionGroup ***/
+
+@use '../../styles/abstracts/variables';
+
+
+
+.accordion-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    max-width: 1023px;
+}
+
+
+
+/* Media Query "mobile"  (720px ou moins) */
+@media (max-width: 720px) {
+    .accordion-group{
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+}

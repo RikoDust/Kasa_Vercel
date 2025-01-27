@@ -1,0 +1,34 @@
+/*** Footer ***/
+
+@use '../../styles/abstracts/variables';
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: variables.$background-color-footer;
+    color: variables.$white-color;
+    height: 200px;
+
+    .footer-logo{
+        max-width: 120px;
+        margin-bottom: 1.6rem;
+    }
+    
+    .footer-text{
+        color: variables.$white-color;
+        font-size: 16px;
+        margin-bottom: 1.6rem;
+    }
+}
+
+
+/* Media Query "mobile"  (720px ou moins) */
+@media (max-width: 720px) {
+    .footer-text{
+        width: 40%;
+        text-align: center;
+    }
+}

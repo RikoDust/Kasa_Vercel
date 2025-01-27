@@ -1,0 +1,68 @@
+/*** Header ***/
+
+@use '../../styles/abstracts/variables';
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    background-color: variables.$background-color-primary;
+
+    .logo {
+        img {
+            height: 68px;
+        }
+    }
+
+    .nav {
+        width: 220px;
+        display: flex;
+        justify-content: space-between;
+
+        .nav-link {
+            text-decoration: none;
+            color: variables.$black-color;
+            font-size: 1.4rem;
+            font-weight: 500;
+            position: relative;
+
+            &.active::after { // État actif
+                content: "";
+                display: block;
+                width: 100%;
+                height: 2px;
+                background-color: variables.$black-color;
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+            }
+        }
+    }
+}
+
+
+/* Media Query "mobile"  (720px ou moins) */
+@media (max-width: 720px) {
+   
+    .header {
+        margin: 0 16px;
+        padding: 1rem 0rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        .logo {
+            img {
+                height: 48px;
+            }
+        }
+        .nav {
+            width: 145px;
+            margin-right: 15px;
+            .nav-link{
+                font-size: 0.8rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
