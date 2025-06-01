@@ -1,17 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Projet KASA
 
 
-_________________________________________________________________________________________________________
+Adapatation du projet Kasa pour un deploiement du projet sur Vercel
 
-# Ce depot est un doublon afin de deployer le site Kasa sur Vercel
+Modification des ressources notemment dans le dossier Public pour un bon deploiement sur la plateforme Vercel
 
-
- - https://vercel.com/rikodusts-projects/sitekasa (repo)
- - https://sitekasa.vercel.app/logement/c67ab8a7 (pageWeb)
